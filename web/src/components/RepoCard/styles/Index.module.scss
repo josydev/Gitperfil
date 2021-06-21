@@ -1,0 +1,28 @@
+@import '../../../styles/abstracts/variables';
+
+.Card {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+    border-radius: $br-6;
+    width: 13rem;
+    max-width: 100%;
+    height: 8rem;
+    border: .09rem solid rgb(61, 61, 61);
+    box-shadow: $sd-primary;
+    transition: all .5s;
+    
+    &__title {
+     font-weight: 600;
+     text-transform: uppercase;
+     margin-bottom: .5rem;
+     color:  lighten($purple, 10%);
+    }
+
+    
+
+    &:hover, &:focus {
+        border-color: $purple;
+    }
+}

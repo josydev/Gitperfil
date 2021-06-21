@@ -1,0 +1,7 @@
+@import '../../../styles/abstracts/variables';
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
