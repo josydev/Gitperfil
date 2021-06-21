@@ -1,0 +1,18 @@
+%container {
+    max-width: 100%;
+    width: 70rem;
+    margin: 0 auto;
+}
+
+%user-image {
+width: 8rem;
+height: 8rem;
+border-radius: 50%;
+}
+
+%error-flag {
+    background: darken($red, 10%);
+    padding: .5rem;
+    border-radius: $br-6;
+    width: fit-content;
+}

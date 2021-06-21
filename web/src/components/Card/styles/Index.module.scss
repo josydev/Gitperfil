@@ -1,0 +1,17 @@
+@import '../../../styles/abstracts/variables';
+@import '../../../styles/abstracts/mixins';
+
+.Card {
+    background: $second-black;
+    padding: 3rem 2.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .6rem;
+    border-radius: $br-6;
+
+    &__img {
+        @extend %user-image;
+    }
+
+}

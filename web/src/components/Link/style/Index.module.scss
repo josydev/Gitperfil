@@ -1,0 +1,23 @@
+@import '../../../styles/abstracts/variables';
+
+.button {
+  
+        background: $purple;
+        color: $color-primary;
+        border: none;
+        padding: .6rem;
+        border-radius: $br-6;
+        box-shadow: $sd-primary;
+        cursor: pointer;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: .79em;
+        border: .15em solid $purple;
+        transition: all .5s;
+   
+        &:hover, &:focus {
+        background: transparent;
+        border: .15em solid $purple;
+        }
+
+}

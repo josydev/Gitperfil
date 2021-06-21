@@ -1,0 +1,52 @@
+@import '../abstracts/variables';
+@import '../abstracts/mixins';
+
+.holder__content {
+@extend %container;
+padding: 1rem;
+}
+
+.user__image {
+  @extend %user-image;
+  position: relative;
+    bottom: -3em;
+    border: .4em solid $black;
+}
+
+.header {
+    width: calc(100% - 2rem);
+    display: flex;
+    height: 10rem;
+    background: $dark-purple;
+    border-radius: $br-6;
+    box-shadow: $sd-primary;
+    padding: 1rem;
+    align-items: flex-end;
+    margin-bottom: 2rem;
+    
+    article {
+        display: flex;
+        gap: .5rem;
+        align-items: flex-end;
+    }
+
+    &__title {
+       font-size: 1.5em;
+       font-weight: 600;
+       margin-bottom: .3rem;
+    }
+
+    &__subtitle{
+    color: rgb(197, 197, 197);
+    margin-bottom: .5rem;
+    font-size: .9em;
+    text-transform: uppercase;
+    }
+
+}
+
+
+
+.error__flag {
+    @extend %error-flag;
+}

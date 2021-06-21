@@ -1,0 +1,11 @@
+@import '../../../styles/abstracts/variables';
+
+.input__search {
+    padding: .8rem;
+    background: #464649;
+    border: none;
+    box-shadow: $sd-primary;
+    border-radius: $br-6;
+    width: 100%;
+    color: $white;
+   }
