@@ -6,7 +6,7 @@ import styles from './style/Index.module.scss';
 export default function Link({ href, children }) {
   return (
     <NextLink href={href} passHref>
-      <a href className={styles.button}>{children}</a>
+      <a href className={styles.button} target="_blank">{children}</a>
     </NextLink>
   );
 }
