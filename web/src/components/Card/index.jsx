@@ -23,7 +23,7 @@ const Card = ({ name, avatar, login }) => (
 Card.propTypes = {
   name: PropTypes.string,
   avatar: PropTypes.string,
-  login: PropTypes,
+  login: PropTypes.string,
 };
 
 Card.defaultProps = {
