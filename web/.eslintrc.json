@@ -8,6 +8,7 @@
     "extends": [
         "plugin:react/recommended",
         "airbnb"
+        
     ],
     "parserOptions": {
         "ecmaFeatures": {
@@ -19,6 +20,9 @@
     "plugins": [
         "react"
     ],
+    "react/jsx-props-no-spreading": [{
+        "html": "ignore"
+    }],
     "rules": {
         "linebreak-style": 0
     }
