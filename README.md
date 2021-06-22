@@ -7,6 +7,8 @@ Projeto que você pesquisa o usuário e mostra a lista de repositórios e outras
  1. Primeira página: Onde você pesquisa pelo username (nick, login) do usuário e clica no botão mais informações, que te redireciona para segunda página.
  2. Segunda página: Você encontra as informações adicionais, a partir do que foi pesquisado.
  
+:link: [Clique pra acessar o deploy na vercel](https://githubperfis.vercel.app/)
+ 
 ## **Como Usar**
 
 👇 Use o comando abaixo para *instalar* todas as depêndencias 
