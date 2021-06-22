@@ -20,6 +20,12 @@ Projeto que você pesquisa o usuário e mostra a lista de repositórios e outras
     npm run dev
     or
     yarn dev
+    
+ 👇 Use o comando abaixo para *rodar* os testes
+
+    npm run test
+    or
+    yarn test
 
 
 ## 🔨 Ferramentas
