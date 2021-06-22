@@ -17,7 +17,7 @@ SearchInput.propTypes = {
 };
 
 SearchInput.defaultProps = {
-  searchValue: '',
+  searchValue: 'josyscript',
   handleChange: '',
 };
 
