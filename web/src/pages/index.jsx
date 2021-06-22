@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import React, { useState, useEffect } from 'react';
-// import Axios from 'axios';
-import styles from '../styles/Home.module.scss';
+import styles from '../styles/home/Index.module.scss';
 import Card from '../components/Card';
 import SearchInput from '../components/SearchInput';
 
@@ -15,23 +14,6 @@ export default function Home() {
     const { value } = e.target;
     setSearchValue(value);
   };
-
-  //   useEffect(async () => {
-  //     Axios.get(`https://api.github.com/users/${searchValue}`, {
-  //       headers: {
-  //         Authorization: `${myToken}`,
-  //       },
-  //     }).then((response) => {
-  //       const perfil = response.data;
-  //       setStatusError(200);
-  //       setPeople(perfil);
-  //     },
-  //     (error) => {
-  //       const { status } = error.response;
-  //       setStatusError(status);
-  //       console.log(status);
-  //     });
-  //   }, [searchValue]);
 
   useEffect(async () => {
     fetch(`https://api.github.com/users/${searchValue}`, {
@@ -50,7 +32,7 @@ export default function Home() {
       });
     }).catch((err) => {
       setStatusError(404);
-      console.error('ERRROOn', err);
+      console.error(err);
     });
   }, [searchValue]);
 
