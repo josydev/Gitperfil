@@ -2,10 +2,15 @@
 @import 'abstracts/variables';
 @import 'abstracts/mixins';
 
+html {
+    height: 100%;
+    width: 100%;
+}
+
 body {
     background: $black;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     color: $white;
+    height: 100%;
 }
-
