@@ -8,7 +8,7 @@ export default function User({ user, repo }) {
   const { isFallback } = useRouter();
 
   if (isFallback) {
-    return <p>Loading</p>;
+    return (<div className={styles.loader}>Loading...</div>);
   }
 
   return (
@@ -52,6 +52,11 @@ export const getStaticProps = async (context) => {
 };
 
 User.propTypes = {
-  user: PropTypes.isRequired,
-  repo: PropTypes.isRequired,
+  user: PropTypes.object,
+  repo: PropTypes.object,
+};
+
+User.defaultProps = {
+  user: [],
+  repo: [],
 };
