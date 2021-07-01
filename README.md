@@ -1,6 +1,8 @@
 ## 💁 Sobre
 
 Projeto que você pesquisa o usuário e mostra a lista de repositórios e outras informações adicionais.
+#### Esse projeto possuí escopo fechado pois foi baseado em um desafio frontend, você pode encontrar desafios como esse acessando: :link: [Desafios Frontend](https://github.com/felipefialho/frontend-challenges)
+
 
 :information_source: **Informações**:  Projeto possuí duas páginas no total
 
